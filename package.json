@@ -1,0 +1,25 @@
+{
+  "name": "smartpay",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Steve Laing",
+    "email": "steve.laing@digital.cabinet-office.gov.uk"
+  },
+  "description": "Smartpay is a Node library for interfacing with Barclaycard's SmartPay payment gateway.",
+  "dependencies": {
+    "qs": "0.6.6"
+  },
+  "main": "lib/smart_pay",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:simonmoore100/smart_pay.git"
+  },
+  "scripts": {
+    "test": "mocha -R spec test/*"
+  },
+  "devDependencies": {
+    "mocha": "1.17.1",
+    "should": "3.1.0"
+  }
+}
